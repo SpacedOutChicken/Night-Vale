@@ -1,0 +1,165 @@
+[
+	{
+		"name": "Blood Pact Scout",
+		"uniqueTo": "Night Vale",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": [
+			"[+1] Sight <when [Embarked]> <hidden from users>",
+			"Comment [The Boy Scouts of Night Vale have announced some slight changes to their hierarchy.]"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"upgradesTo": "Weird Scout",
+		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"text": "Sign-up for Boy Scouts is automatic and random, so please keep an eye out for the scarlet envelope that will let you know your son has been chosen for the process. "
+			}
+		]
+	},
+	{
+		"name": "Weird Scout",
+		"uniqueTo":"Night Vale",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 13,
+		"cost": 70,
+		"uniques": [
+			"Can see over obstacles <hidden from users>",
+			"[+1] Sight <when [Embarked]> <hidden from users>",
+			"To earn the Apparition merit badge, you must become a ghost."
+		],
+		"promotions": ["Ignore terrain cost"],
+		"requiredTech": "Compass",
+		"upgradesTo": "Dreadnought Scout",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"text": "I wired my phone into the soundboard, and then wired the soundboard into the radio tower, which is running on auxiliary power. It's a cool trick my childhood best friend Earl Harlan taught me back when we were in Boy Scouts together, earning our Subversive Radio Host badge."
+			}
+		]
+	},
+	{
+		"name": "Dreadnought Scout",
+		"uniqueTo":"Night Vale",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 185,
+		"uniques": [
+			"Can see over obstacles <hidden from users>",
+			"[+1] Sight <when [Embarked]> <hidden from users>",
+			"Can move after attacking <hidden from users>",
+			"Comment [To earn the Survivalist merit badge, you must eat a human being.]"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"requiredTech": "Rifling",
+		"upgradesTo": "Eternal Scout",
+		"obsoleteTech": "Radar",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "I had to reach far back into my past and remember the skills that got me my Advanced Siege Breaking Tactics scout badge from when I was 12."
+			}
+		]
+	},
+	{
+		"name": "Eternal Scout",
+		"uniqueTo":"Night Vale",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 60,
+		"range": 1,
+		"cost": 300,
+		"uniques": [
+			"Can see over obstacles <hidden from users>",
+			"[+1] Sight <when [Embarked]> <hidden from users>",
+			"Can move after attacking <hidden from users>",
+			"May Paradrop up to [7] tiles from inside friendly territory <hidden from users>",
+			"Comment [Only two Night Vale citizens have reached the level of Eternal Scout: Franklin Wilson and Barton Donovan.]"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"requiredTech": "Radar",
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Eternal Scouts are preserved and kept in glass cases in front of City Hall as a reminder of the risks and rewards of bravery, loyalty, and being a scout."
+			}
+		]
+	},
+	{
+		"name": "Blue Helicopter",
+		"uniqueTo":"Night Vale",
+		"replaces": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities",
+			"May travel on Water tiles without embarking <hidden from users>",
+			"Eliminates combat penalty for attacking across a coast <hidden from users>",
+			"Eliminates combat penalty for attacking over a river <hidden from users>",
+			"May capture killed [Military] units <hidden from users>",
+			"Comment [Helicopters do not need fuel and it is classified how they are able to move.]"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "Keep an eye on the helicopter colors. Are they blue? That's the Sheriff's Secret Police. They'll keep a good eye on your kids, and hardly ever take one."
+			}
+		]
+	},
+	{
+		"name": "Team of Scientists",
+		"uniqueTo": "Night Vale",
+		"replaces":	"Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"[2] Free Technologies <by consuming this unit> <hidden from users>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable",
+			"Comment [We have all been scientists at one point or another in our lives.]"
+		],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"text": "Carlos and his team of scientists warn that one of the houses in the new development of Desert Creek, out back of the elementary school, doesn't actually exist."
+			}
+		]
+	},
+	{
+		"name": "Hooded Figure",
+		"uniqueTo": "Night Vale",
+		"replaces": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit",
+			"Uncapturable <hidden from users>",
+			"Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)> <hidden from users>",
+			"Takes your religion over the one in their birth city <hidden from users>",
+			"Comment [Do not look for any period of time at the hooded figures.]"
+		],
+		"movement": 3,
+		"civilopediaText": [
+			{
+				"text": "We have always trusted in the unknowable purposes of the Hooded Figures. Can we afford to abandon what we presume is their wisdom, and follow this new prophet of tomorrow?"
+			}
+		]
+	}
+]

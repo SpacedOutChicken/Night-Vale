@@ -1,0 +1,236 @@
+[
+	{
+		"name": "City Hall",
+		"isNationalWonder": true,
+		"uniqueTo": "Night Vale",
+		"replaces": "Palace",
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Gain a free [Broadcast Tower] [in capital] <after discovering [Radio]> <hidden from users>",
+			"Comment [Currently taken captive by the dragons.]"
+		],
+		"civilopediaText": [
+			{
+				"text": "City Hall, specifically the Hall of Public Records. One of the most secure and dangerous places in Night Vale, where all public information is kept hidden from a public that might misuse it. Few have gone in and survived. No one has ever managed to remove or even view a single document from it."
+			}
+		]
+	},
+	{
+		"name": "Brown Stone Spire",
+		"uniqueTo":"Night Vale",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": [
+			"Hidden when religion is disabled",
+			"Comment [The Brown Stone Spire has a slogan, but it cannot be pronounced.]",
+			"[+1 Faith, +1 Science] [in this city] <with [1] to [6] neighboring [Desert] tiles> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "The Brown Stone Spire is a malevolent entity beyond primitive human concepts such as morality, and it tempts the most desperate citizens of Night Vale, offering solutions to their problems in exchange for terrible, unspeakable costs."
+			}
+		]
+	},
+	{
+		"name": "Public Library",
+		"uniqueTo":"Night Vale",
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"Comment [Librarian repellent dispensers are being placed throughout the building.]",
+			"[+25]% Strength for cities <in this city> <hidden from users>"
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "Remember: if confronted by a librarian while looking for a book to check out, do not attempt to escape by climbing a tree. There are no trees in the library, and the precious moments it will take you to look around and realize this will allow the librarian to strike."
+			}
+		]
+	},
+	{
+		"name": "Dog Park",
+		"uniqueTo":"Night Vale",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [Do not approach the dog park.]",
+			"[+1 Culture, +1 Gold] [in this city] <while the empire is happy> <hidden from users>"
+		],
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{
+				"text": "Dogs are not allowed in the dog park. People are not allowed in the dog park. It is possible you will see hooded figures in the dog park. Do not approach them."
+			}
+		]
+	},
+	{
+		"name": "Big Rico's Pizza",
+		"uniqueTo":"Night Vale",
+		"replaces": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[40]% Food is carried over after population increases [in this city]",
+			"[+25]% growth [in this city] <hidden from users>",
+			"Comment [No one does a slice like Big Rico! No one.]"
+		],
+		"requiredTech": "Engineering",
+		"civilopediaText": [
+			{
+				"text": "Listeners, we are proud to have Big Rico's as a sponsor of our show. You will not find a better pizza joint in all of Night Vale than Big Rico's."
+			}
+		]
+	},
+	{
+		"name": "Harbor and Waterfront Recreation Area",
+		"uniqueTo":"Night Vale",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Comment [NOTHING IS HERE. NOTHING WAS EVER HERE.]"
+		],
+		"requiredTech": "Compass",
+		"civilopediaText": [
+			{
+				"text": "The Night Vale Business Association announced today that the Night Vale Harbor and Waterfront Recreation Area was not actually something that ever existed in reality, but was instead a shared hallucination of the entire town's population."
+			}
+		]
+	},
+	{
+		"name": "Community College",
+		"replaces": "University",
+		"uniqueTo": "Night Vale",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Desert] tiles [in this city] <hidden from users>",
+			"Comment [Offering courses in introduction to gibbering, conversational gibbering, intermediate gibbering, advanced gibbering and ikebana.]"
+		],
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{
+				"text": "A donation of 5,000 English angora rabbits in the name of Mrs. Sylvia Wickersham has just arrived at the College's fundraising headquarters."
+			}
+		]
+	},
+	{
+		"name": "NRA Chapter",
+		"uniqueTo":"Night Vale",
+		"replaces": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured",
+			"Comment [Guns don't kill people. People kill guns.]",
+			"All newly-trained [Military] units [in this city] receive the [Guns Don't Kill People] promotion <hidden from users>"
+		],
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{
+				"text": "If you say guns kill people one more time, I will shoot you with a gun, and you will, coincidentally, die."
+			}
+		]
+	},
+	{
+		"name": "Dark Owl Records",
+		"uniqueTo": "Night Vale",
+		"replaces": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[+2 Gold] [in this city] <hidden from users>",
+			"Comment [Dark Owl Records has been on hard times since they took a stance against free market capitalism by ceasing use of actual currency.]"
+		],
+		"civilopediaText": [
+			{
+				"text": "When you come to my store, to Dark Owl Records, you have to earn your music. Our extensive underground section is kept literally underground, and you have to dig random holes in the dirt to find it."
+			}
+		]
+	},
+	{
+		"name": "Bowling Alley and Arcade Fun Complex",
+		"uniqueTo":"Night Vale",
+		"replaces": "Stadium",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"uniques": [
+			"Comment [Mmm, nothing like those Desert Flower wings!]",
+			"[+10]% [Production] [in this city] <hidden from users>"
+		],
+		"requiredTech": "Refrigeration",
+		"civilopediaText": [
+			{
+				"text": "Teddy Williams, over at the Desert Flower Bowling Alley and Arcade Fun Complex, has an update on the doorway into that vast, underground city he found in the pin retrieval area of Lane Five."
+			}
+		]
+	},
+	{
+		"name": "University of What It Is",
+		"uniqueTo":"Night Vale",
+		"replaces": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"uniques": [
+			"[+25]% [Faith] [in this city] <hidden from users>",
+			"Comment [Education is such a scary and forbidden subject that you would be a fool to mention it out loud.]"
+		],
+		"requiredTech": "Plastics",
+		"civilopediaText": [
+			{
+				"text": "I have nothing against this particular university of course, more of a general distrust of learning, and a suspicion that education is how they control us."
+			}
+		]
+	},
+	{
+		"name": "The Dark Box",
+		"uniqueTo": "Night Vale",
+		"replaces": "Bomb Shelter",
+		"cost": 300,
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": [
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city] <hidden from users>",
+			"Comment [Anyone caught selling bloodstones will be put into the Dark Box, pending erasure from recorded history.]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Look, I've probably said too much. I can see down the hall that an envelope just came flying out. I pray it's not another HR retraining session in the Dark Box."
+			}
+		]
+	}
+]

@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Science district",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Night Vale",
+		"science": 4,
+		"turnsToBuild": 7,
+		"techRequired": "Education",
+		"uniques": [
+			"[+1 Science] <after discovering [Scientific Theory]> <hidden from users>",
+			"[+1 Science] <after discovering [Atomic Theory]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+10 Gold, +10 Science]",
+			"Gives a defensive bonus of [10]% <hidden from users>",
+			"Adjacent enemy units ending their turn take [1] damage <hidden from users>",
+			"Comment [Time isn't real. Neither is anything else.]"
+		],
+		"shortcutKey": "S",
+		"civilopediaText": [
+			{"text":"A rough and dangerous place, as rival groups of scientists often fight in the streets."}
+		]
+	}
+]

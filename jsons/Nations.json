@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Night Vale",
+		"leaderName": "Cecil Baldwin",
+		"adjective": ["Night Vale"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Glow Cloud",
+
+		"startIntroPart1": "A friendly desert community, where the sun is hot, the moon is beautiful, and mysterious lights pass overhead while we all pretend to sleep.",
+		"startIntroPart2": "Welcome to Night Vale.",
+
+		"introduction": "Hello listeners. Welcome to Night Vale.",
+
+		"declaringWar": "Tuesday afternoon, join the Night Vale PTA for a bake sale to support Citizens for a Blood Space War. Proceeds will go to support neutron bomb development and deployment to our outer solar system allies.",
+		"attacked": "Our god is not a smiling god. And we are ready for this war.",
+		"defeated": "Good night, listeners. Good night.",
+
+		"neutralHello": "How are you doing?",
+		"hateHello": "And now, the weather.",
+
+		"tradeRequest": "And now, some words from our sponsors.",
+
+		"outerColor": [98,12,91],
+		"innerColor": [255,255,255],
+
+		"uniqueName": "Friendly Desert Community",
+		"uniques": [
+			"[+10]% Strength <for [All] units> <when fighting in [Desert] tiles> <hidden from users>",
+			"[+15]% Strength <vs [Desert Bluffs]>",
+			"[+2 Science, +1 Happiness] [in all cities] <after discovering [Radio]> <hidden from users>",
+			"Comment [Weird at last, weird at last! God almighty, weird at last!]"
+		],
+		"cities": ["Night Vale", "Radon Canyon", "Flint Drive", "Galloway Road", "Cactus Bloom", "5th Street", "Cactus Park",
+			"Desert Creek", "Pine Cliff", "Pinkberry", "DuBois Road", "The Empty Desert", "Earl Road", "Hidden Gorge",
+			"Shay Street", "Skeleton Gorge", "Barista District", "Old Town", "Rattlesnake Rest Cemetery",
+			"Scrublands", "Old Musk Road", "Main Street", "Mission Grove Park", "Mudstone Abyss", "Route 800",
+			"Coyote Cornets", "Desert Elm Drive", "Drainage Ditch Road", "The House That Doesn't Exist",
+			"Shambling Orphan", "Luftnarp", "Sand Plains", "Nulogorsk", "King City", "The Underground City",
+			"The Whispering Forest", "Dester Bluffs Too"],
+		"spyNames": ["Chad", "Leland", "Stacey", "Dana", "Richard", "Paolo", "Dylan", "Vithya", "Jesús", "Jeremy"],
+		"civilopediaText": [
+			{
+				"text": "The desert seems vast, even endless, and yet scientists tell us that somewhere, even now, there is snow."
+			},
+			{
+				"text": "Welcome to Night Vale."
+			}
+		]
+	},
+	{
+		"name": "Desert Bluffs",
+		"adjective": ["Desert Bluffs"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "We've got now choice. We have to go to war.",
+		"attacked": "Well, I guess we have to fight back now.",
+		"defeated": "The future is what you make of it!  Just know that your supplies are limited.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [230, 172, 0],
+		"cities": ["Desert Bluffs"],
+		"civilopediaText": [
+			{
+				"text": "Desert Bluffs is always trying to show us up through fancier uniforms, better pre-game snacks, and quite possibly by transporting a commercial jet into our gymnasium, delaying practice for several minutes at least."
+			},
+			{
+				"text": "For shame, Desert Bluffs. For shame."
+			}
+		]
+	}
+]
