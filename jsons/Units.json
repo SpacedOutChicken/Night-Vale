@@ -31,7 +31,7 @@
 		"uniques": [
 			"Can see over obstacles <hidden from users>",
 			"[+1] Sight <when [Embarked]> <hidden from users>",
-			"To earn the Apparition merit badge, you must become a ghost."
+			"Comment [To earn the Apparition merit badge, you must become a ghost.]"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
