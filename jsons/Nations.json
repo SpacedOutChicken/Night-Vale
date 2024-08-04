@@ -27,9 +27,10 @@
 		"uniqueName": "Friendly Desert Community",
 		"uniques": [
 			"[+10]% Strength <for [All] units> <when fighting in [Desert] tiles> <hidden from users>",
+			"[+15]% spy effectiveness [in all cities] <hidden from users>",
 			"[+15]% Strength <vs [Desert Bluffs]>",
 			"[+2 Science, +1 Happiness] [in all cities] <after discovering [Radio]> <hidden from users>",
-			"Comment [Weird at last, weird at last! God almighty, weird at last!]"
+			"Comment [Weird at last, weird at last! God almighty, weird at last! Welcome to Night Vale.]"
 		],
 		"cities": ["Night Vale", "Radon Canyon", "Flint Drive", "Galloway Road", "Cactus Bloom", "5th Street", "Cactus Park",
 			"Desert Creek", "Pine Cliff", "Pinkberry", "DuBois Road", "The Empty Desert", "Earl Road", "Hidden Gorge",
@@ -37,7 +38,7 @@
 			"Scrublands", "Old Musk Road", "Main Street", "Mission Grove Park", "Mudstone Abyss", "Route 800",
 			"Coyote Cornets", "Desert Elm Drive", "Drainage Ditch Road", "The House That Doesn't Exist",
 			"Shambling Orphan", "Luftnarp", "Sand Plains", "Nulogorsk", "King City", "The Underground City",
-			"The Whispering Forest", "Dester Bluffs Too"],
+			"The Whispering Forest", "Desert Bluffs Too"],
 		"spyNames": ["Chad", "Leland", "Stacey", "Dana", "Richard", "Paolo", "Dylan", "Vithya", "Jesús", "Jeremy"],
 		"civilopediaText": [
 			{
