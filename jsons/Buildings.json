@@ -30,7 +30,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Comment [The Brown Stone Spire has a slogan, but it cannot be pronounced.]",
 			"[+1 Faith, +1 Science] [in this city] <with [1] to [6] neighboring [Desert] tiles> <hidden from users>"
 		],
