@@ -143,7 +143,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured",
 			"Comment [Guns don't kill people. People kill guns.]",
 			"All newly-trained [Military] units [in this city] receive the [Guns Don't Kill People] promotion <hidden from users>"
