@@ -130,6 +130,7 @@
             "Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"[2] Free Technologies <by consuming this unit> <hidden from users>",
+			"Is part of Great Person group [Great Person]",
             "Great Person - [Science]", "Unbuildable", "Uncapturable",
 			"Comment [We have all been scientists at one point or another in our lives.]"
 		],
