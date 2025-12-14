@@ -99,7 +99,7 @@
 		"uniqueTo":"Night Vale",
 		"replaces": "Harbor",
 		"cost": 120,
-		"maintenance": 2,
+		"maintenance": 3,
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
