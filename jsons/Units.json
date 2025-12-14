@@ -83,7 +83,7 @@
 			"Can see over obstacles <hidden from users>",
 			"[+1] Sight <when [Embarked]> <hidden from users>",
 			"Can move after attacking <hidden from users>",
-			"May Paradrop up to [7] tiles from inside friendly territory <hidden from users>",
+			"May Paradrop to [Land] tiles up to [7] tiles away <in [{Friendly} {Land}] tiles> <hidden from users>",
 			"Comment [Only two Night Vale citizens have reached the level of Eternal Scout: Franklin Wilson and Barton Donovan.]"
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -132,6 +132,7 @@
 			"[2] Free Technologies <by consuming this unit> <hidden from users>",
 			"Is part of Great Person group [Great Person]",
             "Great Person - [Science]", "Unbuildable", "Uncapturable",
+			"[This Unit] gets a name from the [Scientist] group",
 			"Comment [We have all been scientists at one point or another in our lives.]"
 		],
 		"movement": 2,

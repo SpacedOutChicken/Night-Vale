@@ -8,8 +8,8 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"cityStrength": 2,
-		"cost": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
 			"Gain a free [Broadcast Tower] [in capital] <after discovering [Radio]> <hidden from users>",
